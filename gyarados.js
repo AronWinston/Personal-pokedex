@@ -8,9 +8,15 @@ axios.get("https://pokeapi.co/api/v2/pokemon/gyarados/")
 
     let aronClass = document.querySelector(".gyarados");
     aronClass.innerHTML= `<p class="hp">HP: ${data.stats[5].base_stat}</p><p class="attack">ATTACK: ${data.stats[4].base_stat}
-                            </p><p class="defense">DEFENSE: ${data.stats[3].base_stat}</p>`;
+                            </p><p class="defense">DEFENSE: ${data.stats[3].base_stat}</p><p class="skills" <strong>ABILITIES</strong></p><p class="ability">-${data.abilities[0].ability.name}</p>
+                            <p class="ability">-${data.abilities[1].ability.name}</p>`;
 
+                            let gyarados = new Pokemon ( data.stats[5].base_stat, data.stats[4].base_stat, data.stats[3].base_stat, data.abilities[0].ability.name, data.abilities[1].ability.name);
 
+                            let pokeClass = document.querySelector(".poke");
+                            pokeClass.innerHTML=`<p class="hp">HP:  ${gyarados.hp}</p><p class="attack">ATTACK: ${gyarados.attack}</p>
+                                                    <p class="defense">DEFENSE: ${gyarados.defense}</p><p class="skills" <strong>ABILITIES</strong></p><p class="ability">-${gyarados.ability1}</p>
+                                                    <p class="ability">-${gyarados.ability2}</p>`;
 
  
                             
