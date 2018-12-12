@@ -22,7 +22,7 @@ let stats = document.querySelector(".poke");
 
 let ball = document.querySelector(".ball");
 
-window.addEventListener('click',(event)=>{
+ball.addEventListener('click',(event)=>{
 
     stats.classList.toggle("reveal");
 

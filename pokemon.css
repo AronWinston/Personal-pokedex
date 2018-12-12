@@ -1,3 +1,9 @@
+body {
+  background: fixed;
+  background-image: url("https://vignette.wikia.nocookie.net/fantendo/images/b/b7/Crimson_Clash_Arena_Icon_Pokemon_Stadium.png/revision/latest?cb=20161122170814");
+  background-size: cover;
+  background-position: center; }
+
 h1 {
   display: flex;
   justify-content: center; }
@@ -8,6 +14,11 @@ h1 {
 
 .row {
   margin-left: 70px; }
+
+.text {
+  background-color: lightblue;
+  border-radius: 2em;
+  border: 2px solid yellow; }
 
 .name {
   display: flex;
@@ -24,6 +35,7 @@ h1 {
   width: 20em; }
 
 .poke {
+  font-size: 1.5em;
   padding: 20px;
   margin: 20px;
   opacity: 0; }
