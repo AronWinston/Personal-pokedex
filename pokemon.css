@@ -17,7 +17,7 @@ h1 {
 
 .text {
   background-color: lightblue;
-  border-radius: 2em;
+  border-radius: .25em;
   border: 2px solid yellow; }
 
 .name {
