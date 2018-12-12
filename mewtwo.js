@@ -17,3 +17,14 @@ axios.get("https://pokeapi.co/api/v2/pokemon/mewtwo/")
 
 
 });
+
+let stats = document.querySelector(".poke");
+
+let ball = document.querySelector(".ball");
+
+window.addEventListener('click',(event)=>{
+
+    stats.classList.toggle("reveal");
+
+
+})

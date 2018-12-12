@@ -6,8 +6,37 @@ h1 {
     width: auto;
     height: 200px; }
 
+.row {
+  margin-left: 70px; }
+
 .name {
   display: flex;
-  justify-content: center; }
+  justify-content: left;
+  font-size: 4em; }
+
+.info {
+  display: flex;
+  justify-content: left;
+  font-size: 1.25em; }
+
+.ball img {
+  height: 20em;
+  width: 20em; }
+
+.poke {
+  padding: 20px;
+  margin: 20px;
+  opacity: 0; }
+
+.poke.reveal {
+  animation: reveal;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes reveal {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=pokemon.css.map */
