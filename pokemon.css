@@ -1,0 +1,9 @@
+h1 {
+  display: flex;
+  justify-content: center; }
+  h1 #title {
+    display: flex;
+    width: auto;
+    height: 200px; }
+
+/*# sourceMappingURL=pokemon.css.map */
