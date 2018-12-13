@@ -28,9 +28,12 @@ let stats = document.querySelector(".poke");
 
 let ball = document.querySelector(".ball");
 
+let card = document.querySelector(".text");
+
 ball.addEventListener('click',(event)=>{
 
     stats.classList.toggle("reveal");
+    card.classList.toggle("reveal");
 
 
 })
