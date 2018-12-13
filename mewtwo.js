@@ -27,10 +27,16 @@ axios.get("https://pokeapi.co/api/v2/pokemon/mewtwo/")
 let stats = document.querySelector(".poke");
 let ball = document.querySelector(".ball");
 let card = document.querySelector(".text");
+let evo=document.querySelector("#carouselExampleFade")
 
 ball.addEventListener('click',(event)=>{
 
     stats.classList.toggle("reveal");
     card.classList.toggle("reveal");
 
+})
+
+card.addEventListener('click',(event) =>{
+
+    evo.classList.toggle("reveal");
 })
