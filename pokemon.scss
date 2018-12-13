@@ -82,9 +82,10 @@ h1{
 }
 
 .text.reveal {
-    animation: reveal;
+    animation: reveal ease-out;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    
 }
 
 
