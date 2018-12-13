@@ -31,6 +31,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/gyarados/")
 let stats = document.querySelector(".poke");
 let ball = document.querySelector(".ball");
 let card = document.querySelector(".text");
+let evo=document.querySelector("#carouselExampleFade")
 
 ball.addEventListener('click',(event)=>{
 
@@ -38,4 +39,9 @@ ball.addEventListener('click',(event)=>{
     card.classList.toggle("reveal");
 
 
+})
+
+card.addEventListener('click',(event) =>{
+
+    evo.classList.toggle("reveal");
 })
