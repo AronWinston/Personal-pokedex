@@ -4,14 +4,21 @@ personal pokedex is a web application which pulls information on pokemon from th
 
 
 
-```bash
-pip install foobar
-```
+
 
 ## Usage
 
 ```javascript
-import personal-poekdex
+class Pokemon{
+    constructor( hp, attack, defense, ability){
+        
+        this.hp=hp;
+        this.attack=attack;
+        this.defense=defense;
+        this.ability=ability;
+    }
+}
+```
 
 
 
